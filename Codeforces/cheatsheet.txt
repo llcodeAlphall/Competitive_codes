@@ -1,0 +1,22 @@
+1. sort(arr.begin(),arr.end(),greater<int>())
+2. sort(arr.begin(),arr.end(),func)
+
+3. count(arr.begin(),arr.end(),val)
+
+4. transform(arr.begin(),arr.end(),arr.begin(),::tolower)
+
+5. next_permutation(arr.begin(),arr.end())
+
+6. find divisors of numbers from 1 to a*b*c:
+		for(i=1;i<=a*b*c;i++)
+		{
+			for(j=i;j<=a*b*c;j+=i)
+				f[j]++;
+		}
+
+7. vector<vector<int>> arr(n,vector<int>(m));
+8. getline (cin, str)
+9. check same sign or not using bit manipulation : (x >= 0) ^ (y < 0)
+10.count digits in an integer : return ceil(log10(n))
+11. int to str: to_string(i_val)
+12. number of set bits : n=__builtin_popcount(x)
